@@ -22,14 +22,14 @@ body{
   top:0; bottom:0; left:0;right:0;
   overflow:hidden;
   margin:auto;
-  animation: circle 6s linear infinite;
+  animation: circle 6s ease-out infinite;
 }
 
 @keyframes circle{
   0%{
     transform:rotate(0deg)
-              translate(-165px)
-              rotate(0deg);
+              translate(-111px)
+              rotate(110deg);
   
   }
   100%{
